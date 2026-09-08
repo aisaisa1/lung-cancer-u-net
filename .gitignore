@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python
 __pycache__/
 *.py[cod]
@@ -32,3 +33,10 @@ OUTPUT_HASIL/
 
 # macOS
 .DS_Store
+=======
+# Object file
+*.o
+
+# Ada Library Information
+*.ali
+>>>>>>> 0b955e43415e8bbf643b0766f43d99649d1c77d8
