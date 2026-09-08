@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset
+DATASET/
+
+# Output hasil
+OUTPUT_HASIL/
+
+# Model files
+*.pth
+*.pt
+*.h5
+*.keras
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
