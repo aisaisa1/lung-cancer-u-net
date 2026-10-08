@@ -13,7 +13,7 @@ sys.path.insert(0, SCRIPT_DIR)
 from modul_unet import (ResNet18_UNet, UNet_Basic, UNet_Light, LungSegDataset, build_pairs,
                         HybridIoUSuperLoss, DEVICE, PACKAGE_ROOT, IMG_SIZE)
 
-EPOCHS = 1
+EPOCHS = 15
 BATCH_SIZE = 16
 LR = 2e-4
 WEIGHT_DECAY = 1e-4

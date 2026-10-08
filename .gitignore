@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Python
 __pycache__/
 *.py[cod]
@@ -8,35 +7,88 @@ __pycache__/
 venv/
 env/
 ENV/
+venv*/
+.venv*/
+env*/
+.env*/
+/budi/
+pyvenv.cfg
+
+# Local third-party repository
+/auto/
 
 # Jupyter
 .ipynb_checkpoints/
 
 # Dataset
 DATASET/
+dataset/
+datasets/
+data/
+images/
+masks/
+ct_scans/
+*.dcm
+*.nii
+*.nii.gz
 
 # Output hasil
 OUTPUT_HASIL/
+outputs/
+results/
+runs/
+figures/
+checkpoints/
+lightning_logs/
+wandb/
+mlruns/
 
 # Model files
 *.pth
 *.pt
+*.ckpt
+*.onnx
+*.safetensors
 *.h5
 *.keras
 
 # Logs
 *.log
+logs/
+
+# Cache and temporary files
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Local environment, credentials, and machine-specific configuration
+.env
+.env.*
+*.local
+*.local.*
+credentials.json
+credentials.*.json
+secrets.json
+secrets.*.json
+*.pem
+*.key
 
 # IDE
 .vscode/
 .idea/
 
-# macOS
+# OS files
 .DS_Store
-=======
+Thumbs.db
+Desktop.ini
+
 # Object file
 *.o
 
 # Ada Library Information
 *.ali
->>>>>>> 0b955e43415e8bbf643b0766f43d99649d1c77d8
