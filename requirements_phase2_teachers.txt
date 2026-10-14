@@ -1,0 +1,10 @@
+# Isolated Python 3.10 environment; leave budi/ and .venv_teacher/ unchanged.
+# Install torch/torchvision GPU wheels first using the documented cu121 index.
+torch==2.5.1
+torchvision==0.20.1
+numpy==1.26.4
+scipy==1.14.1
+scikit-image==0.24.0
+opencv-python==4.10.0.84
+pillow==11.0.0
+gdown==5.2.0
